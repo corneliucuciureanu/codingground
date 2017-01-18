@@ -1,0 +1,21 @@
+P919.java:6: error: class C is public, should be declared in a file named C.java
+public class C{ 
+           ^
+	   CP919.java:19: error: cannot find symbol
+	       Circle c = new Circle();
+	           ^
+		     symbol:   class Circle
+		       location: class C
+		       CP919.java:8: error: non-static method method1() cannot be referenced from a static context
+		       	method1();	
+				^
+				CP919.java:16: error: non-static variable c cannot be referenced from a static context
+					System.out.println("What is radius "+ c.getRadius());
+						                                      ^
+										      CP919.java:19: error: cannot find symbol
+										          Circle c = new Circle();
+											                     ^
+													       symbol:   class Circle
+													         location: class C
+														 5 errors
+														  }
