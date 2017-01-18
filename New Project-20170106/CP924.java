@@ -3,11 +3,13 @@
 */
 public class CP924{
 	public static void main(String[] args) {
+	    	//CP924 test1 = new CP924(); // pentru test fara static la swap
 		Circle circle1 = new Circle(1);
 		Circle circle2 = new Circle(2);
 		System.out.println("\nBefore swap1: circle1= "+circle1.radius +
 			" circle2=  "+circle2.radius);
 	
+		//test1.
 		swap1(circle1, circle2);
 		System.out.println(" After swap1: circle1= "+circle1.radius +
 			" circle2=  "+circle2.radius);
@@ -17,7 +19,8 @@ public class CP924{
 		System.out.println("\nBefore swap2: circle3= "+circle3.radius +
 			" circle4=  "+circle4.radius);
 
-		swap1(circle3, circle4);
+		//test1.
+		swap2(circle3, circle4);
 		System.out.println(" After swap2: circle3= "+circle3.radius +
 			" circle4=  "+circle4.radius);
 
